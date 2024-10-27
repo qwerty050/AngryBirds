@@ -1,16 +1,15 @@
-# AngryBirds
-An Angry Birds-inspired game developed for Advanced Programming course using Java and LibGDX.
+Angry Birds-Inspired Game
+Overview
+This game is developed for the Advanced Programming course using Java and LibGDX.
 
-
-How to Execute:
-
-Using Intellij IDE:
-
+How to Execute
+Using IntelliJ IDE
 Open the build.gradle file.
-Select “Open as Project” to get started.
+Select "Open as Project" to get started.
 Extend the Gradle tab on the right side of your window.
-Expand the tasks of your project, then select: lwjgl3 -> Tasks -> application -> run.
+Expand the tasks of your project, then select:
 
+lwjgl3 -> Tasks -> application -> run
 
 Alternatively, you can create a run configuration:
 
@@ -23,6 +22,6 @@ All targets can be run and deployed via the command line interface. To run your 
 
 ./gradlew lwjgl3:run
 
-Gradlew May require to be set as executable, using the following command:
+Note: You may need to set gradlew as executable using the following command:
 
 chmod +x gradlew
