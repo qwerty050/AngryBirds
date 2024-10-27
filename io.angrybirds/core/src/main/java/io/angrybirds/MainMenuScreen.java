@@ -166,17 +166,17 @@ public class MainMenuScreen implements Screen {
 
         // Draw the audio button and cross if muted
         if (isHovering) {
-            if (!mute) {
+            if (!game.getisMuted()) {
                 batch.draw(audiobutton, audioButtonX, audioButtonY);
                 batch.draw(crossbutton, 29, 32);
             } else {
                 batch.draw(audiobutton, audioButtonX, audioButtonY);
             }
             if (Gdx.input.isTouched()) {
-                mute = !mute;
+                game.muteunmute();
             }
         } else {
-            if (mute) {
+            if (game.getisMuted()) {
                 batch.draw(audiobutton, audioButtonX, audioButtonY);
                 batch.draw(crossbutton, 29, 32);
             } else {

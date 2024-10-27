@@ -1,3 +1,4 @@
+ThemeSong.mp3
 altaudio.png
 altlevelselect.png
 altmenucross.png
@@ -15,6 +16,8 @@ bluebox.png
 bluebutton.png
 buttons.png
 buttonsheet.png
+font.fnt
+font.png
 greenbutton.png
 greybutton.png
 levelselect.png

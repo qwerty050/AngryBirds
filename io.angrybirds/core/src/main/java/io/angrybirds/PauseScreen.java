@@ -53,7 +53,6 @@ public class PauseScreen implements Screen {
         if (unpausedScreen != null) {
             unpausedScreen.render(delta);
         }
-
         // Draw a dimming overlay
         Gdx.gl.glEnable(GL20.GL_BLEND);
         Gdx.gl.glBlendFunc(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA);
@@ -76,14 +75,15 @@ public class PauseScreen implements Screen {
         handleButton(mouseX, mouseY, 15, 380, 85, 85, pause, altpause, this::unpause);
         handleButton(mouseX, mouseY, 77, 282, 75, 75, restart, altrestart, this::restart);
         handleButton(mouseX, mouseY, 77, 188, 75, 75, levelselect, altlevelselect, this::levelselect);
-        handleButton(mouseX, mouseY, 77, 94, 75, 75, audio, altaudio, this::audio);
+        if(game.getisMuted()) handleButton(mouseX, mouseY, 77, 94, 75, 75, altaudio, audio, this::audio);
+        else handleButton(mouseX, mouseY, 77, 94, 75, 75, audio, altaudio, this::audio);
 
         batch.end();
         Gdx.gl.glDisable(GL20.GL_BLEND);
     }
 
     private void audio() {
-
+        game.muteunmute();
     }
 
     private void levelselect() {

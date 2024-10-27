@@ -5,6 +5,7 @@
     import com.badlogic.gdx.Screen;
     import com.badlogic.gdx.graphics.GL20;
     import com.badlogic.gdx.graphics.Texture;
+    import com.badlogic.gdx.graphics.g2d.BitmapFont;
     import com.badlogic.gdx.graphics.g2d.Sprite;
     import com.badlogic.gdx.graphics.g2d.SpriteBatch;
     import com.badlogic.gdx.math.Vector2;
@@ -34,6 +35,7 @@
         Block block;
         SpriteMaker spriteMaker;
         private ArrayList<Pig> pigs;
+        private BitmapFont font;
 
         public Level1(Main game, SpriteBatch batch) {
             this.game =game;
@@ -89,6 +91,7 @@
             altpause=new Sprite(new Texture("altpause.png"));
             bluebutton=new Sprite(new Texture("greenbutton.png"));
             greybutton=new Sprite(new Texture("greybutton.png"));
+            font = new BitmapFont(Gdx.files.internal("font.fnt"));
         }
 
         @Override
@@ -97,7 +100,7 @@
             Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
             batch.begin();
             batch.draw(background, 0, 0,720,480);
-            handleMovement();
+//            handleMovement();
 
 
             int mouseX = Gdx.input.getX();
@@ -119,6 +122,8 @@
                 pig.draw(batch);
             }
             handleButton(mouseX,mouseY,530,25,155,50,bluebutton, greybutton, this::win);
+            font.getData().setScale(0.6f);
+            font.draw(batch,"End Level",553,64);
             batch.end();
             System.out.println(img1X+" "+img1Y+" "+img1Width+" "+img1Height);
         }
