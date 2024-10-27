@@ -218,33 +218,33 @@ public class Level2 implements Screen {
 //        // Dispose of font
 //        font.dispose();
     }
-    private int img1X = 0, img1Y = 0, img1Width = 100, img1Height = 100;
-    private void handleMovement() {
-        if (Gdx.input.isKeyPressed(Input.Keys.UP)) {
-            img1Y += 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
-            img1Y -= 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
-            img1X += 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-            img1X -= 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.W)) {
-            img1Height += 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.S)) {
-            img1Height -= 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.A)) {
-            img1Width += 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.D)) {
-            img1Width -= 100 * Gdx.graphics.getDeltaTime();
-        }
-    }
+//    private int img1X = 0, img1Y = 0, img1Width = 100, img1Height = 100;
+//    private void handleMovement() {
+//        if (Gdx.input.isKeyPressed(Input.Keys.UP)) {
+//            img1Y += 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
+//            img1Y -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+//            img1X += 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+//            img1X -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.W)) {
+//            img1Height += 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.S)) {
+//            img1Height -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.A)) {
+//            img1Width += 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.D)) {
+//            img1Width -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//    }
 
 
     private void handleButton(int mouseX, int mouseY, int x, int y, int width, int height,

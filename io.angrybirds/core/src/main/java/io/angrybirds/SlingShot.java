@@ -17,19 +17,19 @@ public class SlingShot {
         birdSheet=new Texture("slingshot.png");
         sprite = new Sprite(birdSheet);
     }
-    private void handleMovement() {
-        if (Gdx.input.isKeyPressed(Input.Keys.UP)) {
-            position.y += 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
-            position.y -= 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
-            position.x -= 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-            position.x += 100 * Gdx.graphics.getDeltaTime();
-        }
+//    private void handleMovement() {
+//        if (Gdx.input.isKeyPressed(Input.Keys.UP)) {
+//            position.y += 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
+//            position.y -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+//            position.x -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+//            position.x += 100 * Gdx.graphics.getDeltaTime();
+//        }
 //        if (Gdx.input.isKeyPressed(Input.Keys.W)) {
 //            img1Height += 100 * Gdx.graphics.getDeltaTime();
 //        }
@@ -42,7 +42,7 @@ public class SlingShot {
 //        if (Gdx.input.isKeyPressed(Input.Keys.D)) {
 //            img1Width += 100 * Gdx.graphics.getDeltaTime();
 //        }
-    }
+//    }
     public void draw(SpriteBatch batch){
 //        handleMovement();
         batch.draw(sprite, position.x, position.y, sprite.getWidth()/3, sprite.getHeight()/3);

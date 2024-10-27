@@ -105,7 +105,7 @@
             Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
             batch.begin();
             batch.draw(background, 0, 0,720,480);
-//            handleMovement();
+
 
 
             int mouseX = Gdx.input.getX();
@@ -130,7 +130,7 @@
             font.getData().setScale(0.6f);
             font.draw(batch,"End Level",553,64);
             batch.end();
-//            System.out.println(img1X+" "+img1Y+" "+img1Width+" "+img1Height);
+
         }
 
         private void pause2(){
@@ -187,33 +187,6 @@
 
             // Dispose of font
             font.dispose();
-        }
-        private int img1X = 0, img1Y = 0, img1Width = 100, img1Height = 100;
-        private void handleMovement() {
-            if (Gdx.input.isKeyPressed(Input.Keys.UP)) {
-                img1Y += 100 * Gdx.graphics.getDeltaTime();
-            }
-            if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
-                img1Y -= 100 * Gdx.graphics.getDeltaTime();
-            }
-            if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
-                img1X += 100 * Gdx.graphics.getDeltaTime();
-            }
-            if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-                img1X -= 100 * Gdx.graphics.getDeltaTime();
-            }
-            if (Gdx.input.isKeyPressed(Input.Keys.W)) {
-                img1Height += 100 * Gdx.graphics.getDeltaTime();
-            }
-            if (Gdx.input.isKeyPressed(Input.Keys.S)) {
-                img1Height -= 100 * Gdx.graphics.getDeltaTime();
-            }
-            if (Gdx.input.isKeyPressed(Input.Keys.A)) {
-                img1Width += 100 * Gdx.graphics.getDeltaTime();
-            }
-            if (Gdx.input.isKeyPressed(Input.Keys.D)) {
-                img1Width -= 100 * Gdx.graphics.getDeltaTime();
-            }
         }
 
 

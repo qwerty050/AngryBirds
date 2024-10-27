@@ -56,7 +56,7 @@ public class LevelLockedScreen implements Screen {
         batch.draw(menu, 175, 125, 370, 230);
         int mouseX = Gdx.input.getX();
         int mouseY = Gdx.graphics.getHeight() - Gdx.input.getY();
-        handleMovement();
+//        handleMovement();
 //        batch.draw(cross, img1X,img1Y,img1Width,img1Height);
         handleButton(mouseX,mouseY,520,324,36,38,cross,altcross,this::levelselect);
 //        font.getData().setScale(img1Width);
@@ -124,32 +124,32 @@ public class LevelLockedScreen implements Screen {
     }
 
 
-    private int img1X = 0, img1Y = 0, img1Width = 1, img1Height = 100;
-    private void handleMovement() {
-        if (Gdx.input.isKeyPressed(Input.Keys.UP)) {
-            img1Y += 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
-            img1Y -= 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
-            img1X += 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-            img1X -= 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.W)) {
-            img1Height += 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.S)) {
-            img1Height -= 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.A)) {
-            img1Width += 100 * Gdx.graphics.getDeltaTime();
-        }
-        if (Gdx.input.isKeyPressed(Input.Keys.D)) {
-            img1Width -= 100 * Gdx.graphics.getDeltaTime();
-        }
-    }
+//    private int img1X = 0, img1Y = 0, img1Width = 1, img1Height = 100;
+//    private void handleMovement() {
+//        if (Gdx.input.isKeyPressed(Input.Keys.UP)) {
+//            img1Y += 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
+//            img1Y -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+//            img1X += 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+//            img1X -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.W)) {
+//            img1Height += 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.S)) {
+//            img1Height -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.A)) {
+//            img1Width += 100 * Gdx.graphics.getDeltaTime();
+//        }
+//        if (Gdx.input.isKeyPressed(Input.Keys.D)) {
+//            img1Width -= 100 * Gdx.graphics.getDeltaTime();
+//        }
+//    }
 
 }
