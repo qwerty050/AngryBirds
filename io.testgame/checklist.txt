@@ -1,0 +1,50 @@
+Sure, here's a comprehensive checklist covering the functionality for both the admin and customer interfaces based on the guidelines you provided:
+
+# Customer Interface Checklist
+
+## Menu Browsing
+- [x] View full menu
+- [x] Search menu by name/keyword
+- [C] Filter menu by category
+- [C] Sort menu by price (ascending/descending)
+
+## Cart Operations
+- [x] Add items to cart
+- [x] Modify quantities of items in cart
+- [X] Remove items from cart
+- [x] View total cart amount
+- [x] Complete checkout process {PROVIDE ORDERID}
+- [C] Provide delivery details during checkout
+
+## Order Tracking
+- [X] View order status (received, preparing, delivered, etc.)
+- [c] Cancel orders
+- [X] View order history
+- [X] Re-order previous orders {SPECIAL ORDERS ARE BEING TREATED AS NORMAL}
+
+## Reviews
+- [x] View reviews for a specific food item
+- [x] Provide reviews and ratings for items
+
+## Membership
+- [x] Upgrade to VIP status by purchasing membership
+
+# Admin Interface Checklist
+
+## Menu Management
+- [X] Add new food items with price, category, and availability
+- [X] Update details of existing food items (price, availability)
+- [X] Remove food items from the menu
+- [X] Update order status for pending orders when an item is removed
+
+## Order Management
+- [X ] View list of pending orders
+- [X] Update order status (preparing, completed, delivered)
+- [X] Process refunds for cancelled orders
+- [X] Handle special instructions for orders
+- [X] Give priority to VIP customer orders
+
+## Reporting
+- [ ] Generate daily sales report with details like total sales, popular items, and total orders
+
+Please let me know if you need any clarification or have additional requirements to add to this checklist.
