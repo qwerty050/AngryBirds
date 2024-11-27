@@ -1,7 +1,0 @@
-birds.png
-blocks_glass.png
-blocks_stone.png
-blocks_wood.png
-redbird1.png
-redbird2.png
-redbird3.png
