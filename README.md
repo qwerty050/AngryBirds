@@ -4,6 +4,13 @@
 
 This project is an Angry Birds-style game developed for the Advanced Programming course, utilizing Java and LibGDX. The game combines engaging gameplay mechanics with technical implementation to showcase advanced programming concepts.
 
+## About
+
+Serialisation: A button in the pause menu is provided to save the exact state of the game, in the level select screen one can see the last 3 saved games and resume from there
+Points: Destorying structures gives you points and more points equal more start
+Abilites: Press spaceBar when the bird is launched to activate ability. Blue Bird splits into three and Black Bird explodes.
+
+
 ## Prerequisites
 
 - Java Development Kit (JDK)
