@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2981f9b2-feab-4425-9317-800baa320cf0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="io.angrybirds" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ntTccAASjwleTyFtzC0weCVxwN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Lwjgl3Launcher.executor": "Run",
+    "Application.Run Game.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build io.angrybirds.executor": "Run",
+    "Gradle.io.angrybirds [dependencies].executor": "Run",
+    "Gradle.io.angrybirds:lwjgl3 [:lwjgl3:io.angrybirds.lwjgl3.Lwjgl3Launcher.main()].executor": "Run",
+    "JUnit.JUnitTests.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aditya/Documents/Assignments/AngryBirds-main/io.angrybirds",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.angrybirds" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aditya\Downloads\zip\AngryBirds-main\io.angrybirds\core\src\main\java\io\angrybirds\blocks" />
+      <recent name="C:\Users\aditya\Downloads\zip\AngryBirds-main\io.angrybirds\core\src\main\java\io\angrybirds\birds" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aditya\Downloads\zip\AngryBirds-main\io.angrybirds\core\src\main\java\io\angrybirds" />
+      <recent name="C:\Users\aditya\Downloads\zip\AngryBirds-main\io.angrybirds\core\src\main\java\io\angrybirds\utils" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.angrybirds" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.angrybirds" />
+      <recent name="io.angrybirds.screens" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Run Game">
+    <configuration name="Run Game" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="io.angrybirds.lwjgl3.Lwjgl3Launcher" />
+      <module name="io.angrybirds.lwjgl3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.angrybirds [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.io.angrybirds [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2981f9b2-feab-4425-9317-800baa320cf0" name="Changes" comment="" />
+      <created>1729791454134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729791454134</updated>
+      <workItem from="1729791455392" duration="908000" />
+      <workItem from="1729796623964" duration="8450000" />
+      <workItem from="1729806233250" duration="146000" />
+      <workItem from="1729807584569" duration="3721000" />
+      <workItem from="1729840068080" duration="203000" />
+      <workItem from="1729840298885" duration="141000" />
+      <workItem from="1729840464775" duration="53000" />
+      <workItem from="1729840932498" duration="9066000" />
+      <workItem from="1729855594234" duration="20420000" />
+      <workItem from="1729979742581" duration="1641000" />
+      <workItem from="1729981941339" duration="1928000" />
+      <workItem from="1729984082470" duration="1390000" />
+      <workItem from="1729985536626" duration="11780000" />
+      <workItem from="1730036617081" duration="12850000" />
+      <workItem from="1732537824663" duration="4001000" />
+      <workItem from="1732646154887" duration="8458000" />
+      <workItem from="1732683902066" duration="15154000" />
+      <workItem from="1732710625238" duration="11863000" />
+      <workItem from="1732724608099" duration="754000" />
+      <workItem from="1732733788992" duration="2346000" />
+      <workItem from="1732801677788" duration="1450000" />
+      <workItem from="1732816703449" duration="613000" />
+      <workItem from="1732824681928" duration="13519000" />
+      <workItem from="1732863044588" duration="16099000" />
+      <workItem from="1732885466503" duration="2016000" />
+      <workItem from="1732888441502" duration="11000" />
+      <workItem from="1732888493191" duration="13034000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
