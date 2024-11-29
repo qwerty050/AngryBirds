@@ -1,9 +1,0 @@
-buttons.png
-buttonsheet.png
-libgdx.png
-loading1.webp
-loading2.webp
-loading3.webp
-logo.png
-playscreenbg.jpg
-titlescreen.png
