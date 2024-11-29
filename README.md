@@ -1,26 +1,64 @@
-Angry Birds-Inspired Game
-Overview
-This game is developed for the Advanced Programming course using Java and LibGDX.
+# Angry Birds-Inspired Game
 
-How to Execute
-Using IntelliJ IDE
-Open the build.gradle file.
-Select "Open as Project" to get started.
-Extend the Gradle tab on the right side of your window.
-Expand the tasks of your project, then select:
+## Overview
 
-lwjgl3 -> Tasks -> application -> run
+This project is an Angry Birds-style game developed for the Advanced Programming course, utilizing Java and LibGDX. The game combines engaging gameplay mechanics with technical implementation to showcase advanced programming concepts.
 
-Alternatively, you can create a run configuration:
+## Prerequisites
 
-Right-click your Lwjgl3Launcher class.
-Select ‘Run Lwjgl3Launcher.main()’.
+- Java Development Kit (JDK)
+- IntelliJ IDEA
+- Gradle
 
+## Project Setup
 
-Command Line
-All targets can be run and deployed via the command line interface. To run your project on the desktop, use the following command:
+### Using IntelliJ IDEA
 
-./gradlew lwjgl3:run
+1. Open IntelliJ IDEA
+2. Open the `build.gradle` file
+   - Select "Open as Project"
+3. Wait for Gradle sync to complete
 
-Note: You may need to set gradlew as executable using the following command:
+### Running the Game
+
+#### Method 1: Using Gradle Tasks
+1. Extend the Gradle tab on the right side of your window
+2. Navigate to: `lwjgl3` -> `Tasks` -> `application` -> `run`
+
+#### Method 2: Run Configuration
+1. Right-click on the `Lwjgl3Launcher` class
+2. Select 'Run Lwjgl3Launcher.main()'
+
+### Command Line Execution
+
+#### Desktop Run
+To run the project via command line:
+
+```bash
+# First, make gradlew executable (if needed)
 chmod +x gradlew
+
+# Run the game
+./gradlew lwjgl3:run
+```
+
+## Development Environment
+
+- **Language**: Java
+- **Framework**: LibGDX
+- **Build Tool**: Gradle
+
+## Project Structure
+
+- `core/`: Contains the main game logic and core implementation
+- `lwjgl3/`: Contains platform-specific desktop launch configuration
+- `assets/`: Stores game resources like sprites, sounds, and textures
+
+
+
+## Contributions
+
+2023050 - Aditya Singh - Game Logic Design
+2023048 - Aditya Raj Yadav - Level Design
+
+Project Link: https://github.com/qwerty050/AngryBirds:
